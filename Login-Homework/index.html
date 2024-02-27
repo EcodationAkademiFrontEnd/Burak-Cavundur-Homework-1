@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5> -->
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small">
+            <div class="login-cont-form">
+                <div class="login-head">
+                    <h3>Sign Up</h3>
+                </div>
+                <div class="login-form">
+                    <form action="">
+                        <div class="login-input">
+                            <span class="icon"><i class="fa-regular fa-user"></i></span>
+                            <input type="text" name="username" placeholder="Username">
+                        </div>
+                        <div class="login-input">
+                            <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+                            <input type="email" name="email" placeholder="EMail" id="">
+                        </div>
+                        <div class="login-input">
+                            <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+                            <input type="tel" name="telephone" placeholder="Telephone" id="">
+                        </div>
+                        <div class="login-input">
+                            <span class="icon"><i class="fa-solid fa-lock"></i></i></span>
+                            <input type="password" name="password" placeholder="Password">
+                        </div>
+                        <div>
+                            <label class="checkbox-inline">
+                                <input type="checkbox" required="required"> I accept the
+                                <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a>.
+                            </label>
+                        </div>
+                        <input class="submit-btn" type="submit" value="Register">
+                    </form>
+                    
+                    <div class="sign-footer">
+                        <h6>or sign up with google</h6>
+                        <a href="#" class="google-btn"><i class="fa-brands fa-google"></i> <span>Or Sign Up With Google</span></a>
+                        <!-- <ul class="social-icons">
+                            <li><a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a class="linkedin" href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="container">
+    <div class="row">
+        <div class="login-brk">
+            <div class="login-cont row">
+                <div class="col-md-4 col-12">
+                    <div class="login-left row">
+                        <div class="">
+                            <img src="img/SVG/login-logo0.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-12">
+                    <div class="login-cont-form">
+                        <div class="login-head">
+                            <h3>Login</h3>
+                        </div>
+                        <div class="login-form">
+                            <form action="">
+                                <div class="login-input">
+                                    <span class="icon"><i class="fa-regular fa-user"></i></span>
+                                    <input type="text" name="username" placeholder="Username">
+                                </div>
+                                <div class="login-input">
+                                    <span class="icon"><i class="fa-solid fa-lock"></i></i></span>
+                                    <input type="password" name="password" placeholder="Password">
+                                </div>
+                                <div class="password">
+                                    <div class="remember"><input type="checkbox" name="" id=""> Remember Me</div>
+                                    <a href="#">Forgot Password?</a>
+                                </div>
+                                <input class="submit-btn" type="submit" value="Login">
+                            </form>
+                            <div class="a-member">
+                                <div class="m-auto">
+                                    <p class="mr-2">Not a member?</p>
+                                    <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Sign Up</a>
+                                </div>
+                            </div>
+                            <div class="login-footer">
+                                <h6>Or register with</h6>
+                                <ul class="social-icons">
+                                    <li><a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></i></a></li>
+                                    <li><a class="twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a class="linkedin" href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+   </div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
